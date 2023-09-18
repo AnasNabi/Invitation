@@ -51,7 +51,7 @@ function loadApp() {
         elevation: 50,
         gradients: true,
         autoCenter: true,
-		duration: 2000
+		duration: 3000
     });
 
     // Add auto-turning pages functionality here
@@ -62,7 +62,7 @@ function loadApp() {
             $('.flipbook').turn('page', 1);
             clearInterval(autoTurnTimer);
             showCustomPopup();
-            setTimeout(closeCustomPopup, 5000);
+            setTimeout(closeCustomPopup, 3000);
 
         } else {
             $('.flipbook').turn('next');
